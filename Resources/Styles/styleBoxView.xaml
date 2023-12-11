@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ResourceDictionary xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="EmpireGeneral.Styles.styleBoxView">
+
+    <!--BoxView-->
+    <Style x:Key="hDivider" TargetType="BoxView">
+        <Setter Property="HeightRequest" Value="1" />
+        <Setter Property="HorizontalOptions" Value="FillAndExpand" />
+        <Setter Property="Color" Value="LightGray" />
+    </Style>
+
+    <Style x:Key="vDivider" TargetType="BoxView">
+        <Setter Property="WidthRequest" Value="1" />
+        <Setter Property="HorizontalOptions" Value="FillAndExpand" />
+        <Setter Property="Color" Value="LightGray" />
+
+    </Style>
+
+
+   
+</ResourceDictionary>

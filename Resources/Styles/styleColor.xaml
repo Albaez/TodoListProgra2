@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ResourceDictionary xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="EmpireGeneral.Styles.styleColor">
+
+    <Color x:Key="Primary">#007bff</Color>
+    <Color x:Key="Secondary">#545b62</Color>
+    <Color x:Key="Success">#28a745</Color>
+    <Color x:Key="Info">#17a2b8</Color>
+    <Color x:Key="Warning">#df691a</Color>
+    <Color x:Key="Danger">#dc3545</Color>
+    <Color x:Key="Light">#f8f9fa</Color>
+    <Color x:Key="Dark">#343a40</Color>
+    <Color x:Key="DarkBlue">#033c73</Color>
+    <Color x:Key="TextMuted">#6c757d</Color>
+    <Color x:Key="Selectedtab">#ff87cefa</Color>
+    <Color x:Key="PageColor">#F3F5F9</Color>
+    <Color x:Key="bgPageColor">#FAFAFA</Color>
+    <Color x:Key="BackgroundColor">#00296b</Color>
+    
+</ResourceDictionary>

@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ResourceDictionary xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="EmpireGeneral.Styles.styleGrid">
+    
+    <!--Grid-->
+    <Style x:Key="rlContainerFluid" TargetType="Grid">
+        <Setter Property="BackgroundColor" Value="{DynamicResource PageColor}"/>
+        <Setter Property="RowSpacing" Value="1"/>
+        <Setter Property="Margin" Value="0"/>
+        <Setter Property="VerticalOptions" Value="FillAndExpand"/>
+        <Setter Property="HorizontalOptions" Value="FillAndExpand"/>
+    </Style>
+
+    <Style x:Key="rlContainer5" TargetType="Grid">
+        <Setter Property="BackgroundColor" Value="{DynamicResource PageColor}"/>
+        <Setter Property="RowSpacing" Value="1"/>
+        <Setter Property="Margin" Value="5"/>
+        <Setter Property="VerticalOptions" Value="FillAndExpand"/>
+        <Setter Property="HorizontalOptions" Value="FillAndExpand"/>
+    </Style>
+    
+    <Style x:Key="rlContainer" TargetType="Grid">
+        <Setter Property="BackgroundColor" Value="{DynamicResource PageColor}"/>
+        <Setter Property="RowSpacing" Value="1"/>
+        <Setter Property="Margin" Value="10"/>
+        <Setter Property="VerticalOptions" Value="FillAndExpand"/>
+        <Setter Property="HorizontalOptions" Value="FillAndExpand"/>
+    </Style>
+
+    <Style x:Key="rlContainerListItems" TargetType="Grid">
+        <Setter Property="BackgroundColor" Value="{DynamicResource PageColor}"/>
+        <Setter Property="RowSpacing" Value="10"/>
+        <Setter Property="Margin" Value="2"/>
+        <Setter Property="Padding" Value="2"/>
+        <Setter Property="VerticalOptions" Value="StartAndExpand"/>
+        <Setter Property="HorizontalOptions" Value="FillAndExpand"/>
+    </Style>
+
+
+    <Style  x:Key="Line" TargetType="Line">
+        <Setter Property="Y1" Value="0"/>
+        <Setter Property="X2" Value="300"/>
+        <Setter Property="Y2" Value="0"/>
+        <Setter Property="StrokeLineCap" Value="Round"/>
+        <Setter Property="StrokeThickness" Value="2"/>
+    </Style>  
+
+    <!--**************************-->
+    <!--Implicit  Style-->
+    <!--**************************-->
+
+
+    <!--Grid-->
+    <Style TargetType="Grid">
+        <Setter Property="VisualStateManager.VisualStateGroups">
+            <VisualStateGroupList>
+                <VisualStateGroup x:Name="CommonStates">
+                    <VisualState x:Name="Normal" />
+                    <VisualState x:Name="Selected">
+                        <VisualState.Setters>
+                            <Setter Property="BackgroundColor"
+                                        Value="LightSkyBlue" />
+                        </VisualState.Setters>
+                    </VisualState>
+                </VisualStateGroup>
+            </VisualStateGroupList>
+        </Setter>
+    </Style>
+</ResourceDictionary>
