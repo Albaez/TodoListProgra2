@@ -5,22 +5,14 @@
              x:Class="ToDoListNew.App"
   
             >
-    <!--xmlns:styles="clr-namespace:StyleGeneral.Styles"-->
+   
     <Application.Resources>
         <ResourceDictionary>
-            <!--<styles:styleColor/>-->
-            <!--<styles:styleFrame/>-->
+
          
                 <ResourceDictionary Source="Resources/Styles/Colors.xaml" />
                 <ResourceDictionary Source="Resources/Styles/Styles.xaml" />
-                <!--<ResourceDictionary Source="Resources/Styles/styleFrame.xaml" />-->
-                <!--<ResourceDictionary Source="Resources/Styles/styleBoxView.xaml" />
-                <ResourceDictionary Source="Resources/Styles/styleButton.xaml" />
-                <ResourceDictionary Source="Resources/Styles/styleColor.xaml" />
-                <ResourceDictionary Source="Resources/Styles/styleFont.xaml" />
-                <ResourceDictionary Source="Resources/Styles/styleFrame.xaml" />
-                <ResourceDictionary Source="Resources/Styles/styleGrid.xaml" />
-                <ResourceDictionary Source="Resources/Styles/styleNavigationPane.xaml" />-->
+               
          
     
         </ResourceDictionary>
