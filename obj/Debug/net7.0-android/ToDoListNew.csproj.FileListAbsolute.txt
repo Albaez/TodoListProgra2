@@ -1,3 +1,11 @@
+C:\Users\Ealas\source\repos\ToDoListNew\ToDoListNew\bin\Debug\net7.0-android\ToDoListNew.runtimeconfig.json
+C:\Users\Ealas\source\repos\ToDoListNew\ToDoListNew\bin\Debug\net7.0-android\ToDoListNew.dll
+C:\Users\Ealas\source\repos\ToDoListNew\ToDoListNew\bin\Debug\net7.0-android\ToDoListNew.pdb
+C:\Users\Ealas\source\repos\ToDoListNew\ToDoListNew\bin\Debug\net7.0-android\com.companyname.todolistnew.apk
+C:\Users\Ealas\source\repos\ToDoListNew\ToDoListNew\bin\Debug\net7.0-android\com.companyname.todolistnew.aab
+C:\Users\Ealas\source\repos\ToDoListNew\ToDoListNew\bin\Debug\net7.0-android\com.companyname.todolistnew-Signed.aab
+C:\Users\Ealas\source\repos\ToDoListNew\ToDoListNew\bin\Debug\net7.0-android\com.companyname.todolistnew-Signed.apk
+C:\Users\Ealas\source\repos\ToDoListNew\ToDoListNew\bin\Debug\net7.0-android\com.companyname.todolistnew-Signed.apk.idsig
 C:\Users\Ealas\source\repos\ToDoListNew\ToDoListNew\obj\Debug\net7.0-android\.NETCoreApp,Version=v7.0.AssemblyAttributes.cs
 C:\Users\Ealas\source\repos\ToDoListNew\ToDoListNew\obj\Debug\net7.0-android\build.props
 C:\Users\Ealas\source\repos\ToDoListNew\ToDoListNew\obj\Debug\net7.0-android\adb.props
@@ -99,14 +107,6 @@ C:\Users\Ealas\source\repos\ToDoListNew\ToDoListNew\obj\Debug\net7.0-android\ToD
 C:\Users\Ealas\source\repos\ToDoListNew\ToDoListNew\obj\Debug\net7.0-android\ToDoListNew.AssemblyInfoInputs.cache
 C:\Users\Ealas\source\repos\ToDoListNew\ToDoListNew\obj\Debug\net7.0-android\ToDoListNew.AssemblyInfo.cs
 C:\Users\Ealas\source\repos\ToDoListNew\ToDoListNew\obj\Debug\net7.0-android\ToDoListNew.csproj.CoreCompileInputs.cache
-C:\Users\Ealas\source\repos\ToDoListNew\ToDoListNew\bin\Debug\net7.0-android\ToDoListNew.runtimeconfig.json
-C:\Users\Ealas\source\repos\ToDoListNew\ToDoListNew\bin\Debug\net7.0-android\ToDoListNew.dll
-C:\Users\Ealas\source\repos\ToDoListNew\ToDoListNew\bin\Debug\net7.0-android\ToDoListNew.pdb
-C:\Users\Ealas\source\repos\ToDoListNew\ToDoListNew\bin\Debug\net7.0-android\com.companyname.todolistnew.apk
-C:\Users\Ealas\source\repos\ToDoListNew\ToDoListNew\bin\Debug\net7.0-android\com.companyname.todolistnew.aab
-C:\Users\Ealas\source\repos\ToDoListNew\ToDoListNew\bin\Debug\net7.0-android\com.companyname.todolistnew-Signed.aab
-C:\Users\Ealas\source\repos\ToDoListNew\ToDoListNew\bin\Debug\net7.0-android\com.companyname.todolistnew-Signed.apk
-C:\Users\Ealas\source\repos\ToDoListNew\ToDoListNew\bin\Debug\net7.0-android\com.companyname.todolistnew-Signed.apk.idsig
 C:\Users\Ealas\source\repos\ToDoListNew\ToDoListNew\obj\Debug\net7.0-android\XamlC.stamp
 C:\Users\Ealas\source\repos\ToDoListNew\ToDoListNew\obj\Debug\net7.0-android\ToDoListNew.dll
 C:\Users\Ealas\source\repos\ToDoListNew\ToDoListNew\obj\Debug\net7.0-android\ToDoListNew.pdb

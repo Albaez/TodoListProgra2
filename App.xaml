@@ -2,12 +2,18 @@
 <Application xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:ToDoListNew"
-             x:Class="ToDoListNew.App">
+             x:Class="ToDoListNew.App"
+  
+            >
+    <!--xmlns:styles="clr-namespace:StyleGeneral.Styles"-->
     <Application.Resources>
         <ResourceDictionary>
-            <ResourceDictionary.MergedDictionaries>
+            <!--<styles:styleColor/>-->
+            <!--<styles:styleFrame/>-->
+         
                 <ResourceDictionary Source="Resources/Styles/Colors.xaml" />
                 <ResourceDictionary Source="Resources/Styles/Styles.xaml" />
+                <!--<ResourceDictionary Source="Resources/Styles/styleFrame.xaml" />-->
                 <!--<ResourceDictionary Source="Resources/Styles/styleBoxView.xaml" />
                 <ResourceDictionary Source="Resources/Styles/styleButton.xaml" />
                 <ResourceDictionary Source="Resources/Styles/styleColor.xaml" />
@@ -16,7 +22,7 @@
                 <ResourceDictionary Source="Resources/Styles/styleGrid.xaml" />
                 <ResourceDictionary Source="Resources/Styles/styleNavigationPane.xaml" />-->
          
-            </ResourceDictionary.MergedDictionaries>
+    
         </ResourceDictionary>
     </Application.Resources>
 </Application>

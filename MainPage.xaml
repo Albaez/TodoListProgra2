@@ -4,10 +4,11 @@
              x:Class="ToDoListNew.MainPage"
              xmlns:viewmodel="clr-namespace:ToDoListNew.ViewModels"
               x:DataType="viewmodel:MainPageViewModel"
+          
                BindingContext="{x:Reference MainPageViewModel}"
              >
 
-    <Grid RowDefinitions="100,auto, Auto, Auto, *"
+    <Grid RowDefinitions="100,Auto, Auto, Auto, *"
     ColumnDefinitions=".75*"
     Padding="10"
     RowSpacing="10"
@@ -67,7 +68,7 @@
                         </SwipeView.RightItems>
                        
                         <Grid Padding="0,5">
-                            <Frame x:Name="Lista"  CornerRadius="50" HasShadow="true" BackgroundColor="Black" >
+                            <Frame x:Name="Lista"  CornerRadius="50" HasShadow="true" BackgroundColor="Black" Padding="8.4" Margin="2" >
                                 <Frame.GestureRecognizers>
                                     <TapGestureRecognizer Command="{Binding Source={RelativeSource AncestorType={x:Type viewmodel:MainPageViewModel}}, Path=TapCommand}"
                                                     CommandParameter="{Binding .}"/>
@@ -84,18 +85,28 @@
             </CollectionView.ItemTemplate>
 
         </CollectionView>
-        <StackLayout Grid.Row="4" Grid.ColumnSpan="2" BackgroundColor="LightGray" Padding="10" IsVisible="{Binding ShowCompleted}">
-            <Label Text="Tareas Completadas" FontSize="20" FontAttributes="Bold"/>
-            <CollectionView ItemsSource="{Binding CompletedItems}">
+
+        <ScrollView  Grid.Row="4"  IsVisible="{Binding ShowCompleted}" >
+  
+            <StackLayout Grid.ColumnSpan="2" BackgroundColor="White" Padding="10" IsVisible="{Binding ShowCompleted}">
+                <Label  Grid.Row="4" Text="Tareas Completadas" FontSize="20" FontAttributes="Bold"/>
+                <CollectionView ItemsSource="{Binding CompletedItems}">
                 <CollectionView.ItemTemplate>
                     <DataTemplate>
-                        <StackLayout>
-                            <Label Text="{Binding}" FontSize="16"/>
-                        </StackLayout>
+                     
+                            <StackLayout>
+                                <Frame  CornerRadius="20" HasShadow="true" BackgroundColor="DarkBlue" Padding="8.4" Margin="2">
+
+                                    <Label Text="{Binding}"  TextColor="White" FontAttributes="Bold" FontSize="Medium"/>
+                                </Frame>
+                            </StackLayout>
+                      
+                       
                     </DataTemplate>
                 </CollectionView.ItemTemplate>
             </CollectionView>
         </StackLayout>
+        </ScrollView>
     </Grid>
 
 </ContentPage>

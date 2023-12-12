@@ -1,6 +1,6 @@
 ﻿
 
-namespace EmpireGeneral.Styles
+namespace StyleGeneral.estilos
 { 
     public partial class styleFrame 
     {

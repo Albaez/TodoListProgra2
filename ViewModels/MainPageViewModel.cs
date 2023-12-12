@@ -97,7 +97,13 @@ namespace ToDoListNew.ViewModels
         [RelayCommand]
         private void Add()
         {
-            Items.Add(Text);
+            if (Text == null || Text=="" )
+            {
+                Application.Current?.MainPage?.DisplayAlert("Resultado", "Debe ingresar una tarea.", "Aceptar");
+                return;
+            }
+            else { Items.Add(Text); }
+           
         }
 
         [RelayCommand]
